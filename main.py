@@ -423,7 +423,7 @@ def button_function(px=22):
 
 
 
-customtkinter.CTkButton(master=app,fg_color=None, hover=False, text="", image=ImageTk.PhotoImage((Image.open("LogoText.png")))).pack(padx=0, pady=10)
+customtkinter.CTkButton(master=app,fg_color=None, hover=False, text="", image=ImageTk.PhotoImage((Image.open("resources/LogoText.png")))).pack(padx=0, pady=10)
 imgframe = customtkinter.CTkFrame(master=app,
                                width=150,
                                height=50,
@@ -453,7 +453,7 @@ frame = customtkinter.CTkFrame(master=app,
                                width=200,
                                height=200,
                                corner_radius=10)
-copylabel = customtkinter.CTkButton(master=boxLabel,fg_color=None, hover=False, text="", image=ImageTk.PhotoImage((Image.open("copy.png"))))
+copylabel = customtkinter.CTkButton(master=boxLabel,fg_color=None, hover=False, text="", image=ImageTk.PhotoImage((Image.open("resources/copy.png"))))
 
 
 #scrollbar = customtkinter.CTkScrollbar(app, command=frame.yview)
