@@ -434,7 +434,7 @@ button = customtkinter.CTkButton(master=imgframe, text="Open Image", command=but
 button.pack(padx=10, pady=10, side="left")
 advancedModeSwitch = customtkinter.CTkCheckBox(master=imgframe, text="Advanced",fg_color="#ec7458",hover_color="#646469",
                                    variable=advancedMode, onvalue=True, offvalue=False, command=checkboxClick)
-advancedModeSwitch.pack(padx=10, pady=10, side="right")
+#advancedModeSwitch.pack(padx=10, pady=10, side="right")
 progressbar = customtkinter.CTkProgressBar(master=app,height=10,progress_color="#f58859",mode="indeterminate",determinate_speed=2)
 progressbar.set(0)
 
